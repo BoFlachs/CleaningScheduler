@@ -1,0 +1,15 @@
+.feature-coming-soon:hover .toolTipText {
+    visibility: visible;
+    opacity: 1;
+}
+
+.feature-coming-soon .toolTipText::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #f0f7dabe transparent transparent transparent;
+  }

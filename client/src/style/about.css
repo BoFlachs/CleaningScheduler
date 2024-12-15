@@ -1,0 +1,38 @@
+.about {
+  max-height: calc(100vh - 168px); /* Adjust 200px based on header height and other elements */
+  overflow-y: auto;
+}
+
+.about h2 {
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+    font-weight: 600;
+}
+
+.about h3 {
+    font-size: 1.125rem;
+    line-height: 1.75rem /* 28px */;
+}
+
+.about section {
+    margin-bottom: 10px;
+    background-color: rgb(0 0 0 / 0.2);
+    border-radius: 2rem;
+    padding: 20px;
+}
+
+.about p {
+    margin-bottom: 20px;
+    text-align: justify;
+    hyphens: auto; 
+    word-wrap: break-word;
+}
+
+.about hr {
+    border-color: rgb(15 32 87);
+    margin-bottom: 10px;
+}
+
+.about ul {
+    padding-left: 40px;
+}
